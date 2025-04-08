@@ -32,4 +32,4 @@ From [Wuhan University](https://en.whu.edu.cn/) to [Universität Stuttgart](http
 
 Technology isn't just code and algorithms; it's a bridge connecting people with possibilities. I believe Web3 and blockchain are reshaping how we interact, create, and share value.
 
-*Want to chat about blockchain, tech trends, or just grab a virtual coffee? Reach out anytime!*
+*Want to chat about blockchain, tech trends, or just grab a [virtual coffee](https://buymeacoffee.com/harold_)? Reach out anytime!*

@@ -1,47 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Harold</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Harold</description>
+    <title>Posts on Harold</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Harold</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 08 Apr 2025 17:38:22 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🌿 什么是“凡人计算”？</title>
       <link>http://localhost:1313/posts/1/</link>
       <pubDate>Tue, 08 Apr 2025 17:38:22 +0800</pubDate>
       <guid>http://localhost:1313/posts/1/</guid>
       <description>&lt;h1 id=&#34;凡人计算mortal-computation概述&#34;&gt;&#xA;  凡人计算（Mortal Computation）概述&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e5%87%a1%e4%ba%ba%e8%ae%a1%e7%ae%97mortal-computation%e6%a6%82%e8%bf%b0&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;技术概念凡人计算-vs-永生计算&#34;&gt;&#xA;  技术概念：凡人计算 vs. 永生计算&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e6%8a%80%e6%9c%af%e6%a6%82%e5%bf%b5%e5%87%a1%e4%ba%ba%e8%ae%a1%e7%ae%97-vs-%e6%b0%b8%e7%94%9f%e8%ae%a1%e7%ae%97&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;“凡人计算”（Mortal Computation）是一种&lt;strong&gt;具有生命周期的计算范式&lt;/strong&gt;，其核心思想是在计算系统中引入“生老病死”的概念，让数据和状态不再被永久保存，而是可以随时间或条件而&lt;strong&gt;遗忘和销毁&lt;/strong&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;。这一理念与传统数字计算追求的“永生”特性形成鲜明对比。&lt;/p&gt;&#xA;&lt;p&gt;凡人计算强调：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;生命周期管理&lt;/strong&gt;：数据或状态从创建起即设定存续时间，到期即销毁。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;可遗忘性&lt;/strong&gt;：系统应支持主动或被动地“遗忘”旧数据。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;状态销毁机制&lt;/strong&gt;：支持合约或系统状态的主动删除或自毁操作。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;该思想由 Geoffrey Hinton 首次提出于神经计算领域，近年来被扩展至区块链、隐私计算等系统架构中，用以应对“状态永久膨胀”和“隐私不可清除”等问题。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;关键技术机制&#34;&gt;&#xA;  关键技术机制&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e5%85%b3%e9%94%ae%e6%8a%80%e6%9c%af%e6%9c%ba%e5%88%b6&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;以下是支撑“凡人计算”范式的主要技术组件：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;状态过期机制&lt;/strong&gt;：如以太坊 State Expiry 提案，根据活跃度定期剔除老旧状态&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;自毁合约&lt;/strong&gt;：使用如以太坊 &lt;code&gt;SELFDESTRUCT&lt;/code&gt; 操作将合约及其状态完全移除&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;零知识证明（ZKP）&lt;/strong&gt;：将计算在链下执行，仅上链简明证明&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;链下可验证计算&lt;/strong&gt;：如 Optimistic/Fraud proof、Validium 等确保链下过程可信&lt;sup id=&#34;fnref1:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;可信执行环境（TEE）&lt;/strong&gt;：如 Intel SGX，在安全沙箱中一次性运行敏感计算&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;多方安全计算（MPC）&lt;/strong&gt;：数据在计算中始终分片，计算完毕后即销毁中间状态&lt;sup id=&#34;fnref1:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;近期发展动态2023-年以来&#34;&gt;&#xA;  近期发展动态（2023 年以来）&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e8%bf%91%e6%9c%9f%e5%8f%91%e5%b1%95%e5%8a%a8%e6%80%812023-%e5%b9%b4%e4%bb%a5%e6%9d%a5&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;以太坊状态精简：The Purge&lt;/strong&gt;&lt;br&gt;&#xA;Vitalik 提出 State Expiry（状态过期）、EIP-4444（历史记录清除）和 EIP-1153（瞬态存储）等机制，逐步让以太坊支持“记忆遗忘”&lt;sup id=&#34;fnref1:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref1:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref2:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Project</title>
-      <link>http://localhost:1313/projects/project/</link>
-      <pubDate>Tue, 08 Apr 2025 17:31:49 +0800</pubDate>
-      <guid>http://localhost:1313/projects/project/</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;DIN&lt;/li&gt;&#xA;&lt;li&gt;Heima Network&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
-      <pubDate>Tue, 08 Apr 2025 17:15:50 +0800</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
-      <description>&lt;p&gt;test&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Mon, 07 Apr 2025 10:21:30 +0800</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;p&gt;📧 Shoot me a message: &lt;strong&gt;&lt;a href=&#34;mailto:gmgn@duck.com&#34; &gt;gmgn@duck.com&lt;/a&gt;&lt;/strong&gt;  (Yes, 🦆 deliver emails now!)&lt;/p&gt;&#xA;&lt;p&gt;🐦 Tweet tweet: Find me on &lt;a href=&#34;https://x.com/harold_lol_&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;X&lt;/a&gt;, where I occasionally share wisdom or memes&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Who I Am</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 07 Apr 2025 09:41:14 +0800</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Crypto Startup Founder • Tech Enthusiast • Global Citizen&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;-say-hello&#34;&gt;&#xA;  👋 Say Hello&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-say-hello&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Hey! I&amp;rsquo;m the founder of &lt;a href=&#34;https://din.lol/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DIN&lt;/a&gt;, a geek obsessed with blockchain technology and the digital future. Before diving into the crypto rabbit hole, I navigated the SAP enterprise world, building digital solutions across three continents.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-my-journey&#34;&gt;&#xA;  🚀 My Journey&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-my-journey&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://din.lol/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DIN&lt;/a&gt;&lt;/strong&gt; | Founder | Singapore | 2021-Present&lt;br&gt;&#xA;Here, I&amp;rsquo;m leading a team exploring the endless possibilities of blockchain.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
