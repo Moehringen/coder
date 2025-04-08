@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Harold</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on Harold</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Apr 2025 09:41:14 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Mon, 07 Apr 2025 09:41:14 +0800</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>&lt;p&gt;Experienced SAP Consultant and Founder of Web3Go with a strong background in technology and international business.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Singapore, Singapore, UTC+8&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;#&#34; &gt;Website&lt;/a&gt; | &lt;a href=&#34;#&#34; &gt;Email&lt;/a&gt; | &lt;a href=&#34;#&#34; &gt;LinkedIn&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;about&#34;&gt;&#xA;  About&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#about&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Experienced SAP Consultant with a demonstrated history of working in the information technology and services industry. Skilled in SAP Fiori, UI5, Python, and Linux. Has worked internationally in India, China, and Germany, bringing a diverse cultural perspective to projects. Also experienced in marketing and product management. PMP certified.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
