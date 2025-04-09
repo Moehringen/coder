@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2025-04-09T14:59:13+08:00
-title = "将 Sutton 提出的 'Decentralized Neural Networks' 和区块链相结合"
+title = "如果神经元也能上链：” Sutton 的下一代 AI 架构，会是 Web3 的终极叙事吗？"
 description = ""
 slug = ""
 authors = []

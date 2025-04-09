@@ -1,15 +1,3 @@
-+++ 
-draft = true
-date = 2025-04-09T22:46:17+08:00
-title = ""
-description = ""
-slug = ""
-authors = []
-tags = []
-categories = []
-externalLink = ""
-series = []
-+++
 
 # 📄 MEMO — Concept for Consideration: Governable Decentralized Neural Networks (G-DNNs)
 

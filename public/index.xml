@@ -9,7 +9,7 @@
     <lastBuildDate>Wed, 09 Apr 2025 14:59:13 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>将 Sutton 提出的 &#39;Decentralized Neural Networks&#39; 和区块链相结合</title>
+      <title>如果神经元也能上链：” Sutton 的下一代 AI 架构，会是 Web3 的终极叙事吗？</title>
       <link>http://localhost:1313/posts/sutton%E8%AE%BA%E6%96%87%E7%9A%84%E4%B8%80%E4%BA%9B%E8%B0%83%E7%A0%94/</link>
       <pubDate>Wed, 09 Apr 2025 14:59:13 +0800</pubDate>
       <guid>http://localhost:1313/posts/sutton%E8%AE%BA%E6%96%87%E7%9A%84%E4%B8%80%E4%BA%9B%E8%B0%83%E7%A0%94/</guid>
@@ -49,6 +49,13 @@
       <pubDate>Mon, 07 Apr 2025 09:41:14 +0800</pubDate>
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Crypto Startup Founder • Tech Enthusiast • Global Citizen&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;-say-hello&#34;&gt;&#xA;  👋 Say Hello&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-say-hello&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Hey! I&amp;rsquo;m the founder of &lt;a href=&#34;https://din.lol/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DIN&lt;/a&gt;, a geek obsessed with blockchain technology and the digital future. Before diving into the crypto rabbit hole, I navigated the SAP enterprise world, building digital solutions across three continents.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-my-journey&#34;&gt;&#xA;  🚀 My Journey&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-my-journey&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://din.lol/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DIN&lt;/a&gt;&lt;/strong&gt; | Founder | Singapore | 2021-Present&lt;br&gt;&#xA;Here, I&amp;rsquo;m leading a team exploring the endless possibilities of blockchain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/memo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/memo/</guid>
+      <description>&lt;h1 id=&#34;-memo--concept-for-consideration-governable-decentralized-neural-networks-g-dnns&#34;&gt;&#xA;  📄 MEMO — Concept for Consideration: Governable Decentralized Neural Networks (G-DNNs)&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-memo--concept-for-consideration-governable-decentralized-neural-networks-g-dnns&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-introduction&#34;&gt;&#xA;  🧠 Introduction&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-introduction&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This memo introduces a proposed architecture called &lt;strong&gt;G-DNNs&lt;/strong&gt; — &lt;em&gt;Governable Decentralized Neural Networks&lt;/em&gt; — inspired by Sutton&amp;rsquo;s concept of &lt;strong&gt;neurons as goal-seeking agents&lt;/strong&gt; and building upon the real-world infrastructure of &lt;strong&gt;InitialS-AI&lt;/strong&gt;, a decentralized auditing system for AI models.&lt;/p&gt;&#xA;&lt;p&gt;We believe this direction presents a concrete pathway to operationalize Sutton&amp;rsquo;s DNN vision, with added layers of &lt;strong&gt;auditing, verification, and dynamic evolution&lt;/strong&gt;, all governed via a decentralized incentive system rooted in blockchain.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
