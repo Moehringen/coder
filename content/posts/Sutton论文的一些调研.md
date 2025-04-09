@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2025-04-09T14:59:13+08:00
-title = "将Sutton提出的 'Decentralized Neural Networks' 和区块链结合的方向和思考"
+title = "将 Sutton 提出的 'Decentralized Neural Networks' 和区块链相结合"
 description = ""
 slug = ""
 authors = []
@@ -151,10 +151,13 @@ Sutton 在阿尔伯塔计划提出的“构建具备世界模型与目标系统�
 #### 2.融入 InitialS 的审查流程（KYA）到神经元生命周期中
 
  新神经元生成流程（与“fringe”概念对应）：
-   1. 用户/agent 向系统注册一个新的神经元（模型碎片）
-	2.	系统分配测试任务（图像分类、语言生成等）
-	3.	其输出被多个审查节点评估（参考 InitialS 的 Audit Layer）
-	4.	审查结果生成：
+1. 用户/agent 向系统注册一个新的神经元（模型碎片）
+ 
+2.	系统分配测试任务（图像分类、语言生成等）
+
+3.	其输出被多个审查节点评估（参考 InitialS 的 Audit Layer）
+
+4.	审查结果生成：
 	    * 安全等级（Toxicity、Privacy）
 	    * 质量等级（Accuracy、Novelty、Bias）
 	    * 表现评分（Reward-to-Stake）
