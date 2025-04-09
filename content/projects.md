@@ -4,5 +4,10 @@ draft = false
 title = 'Projects'
 +++
 
-1. DIN(Data Intelligence Network)
-2. Heima Network
+WIP
+
+I will introduce two projects that I was/am deeply involved in and share the gains and losses:
+
+1. [DIN (Data Intelligence Network)](https://din.lol/)
+
+2. [Heima Network](https://www.heima.network/)

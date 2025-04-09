@@ -2,16 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-04-08T20:58:55+08:00</lastmod>
+    <loc>http://localhost:1313/categories/ai/</loc>
+    <lastmod>2025-04-09T14:59:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/deai/</loc>
-    <lastmod>2025-04-08T20:58:55+08:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-04-09T14:59:13+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-08T20:58:55+08:00</lastmod>
+    <lastmod>2025-04-09T14:59:13+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-04-09T14:59:13+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sutton/</loc>
+    <lastmod>2025-04-09T14:59:13+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-04-09T14:59:13+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/sutton%E8%AE%BA%E6%96%87%E7%9A%84%E4%B8%80%E4%BA%9B%E8%B0%83%E7%A0%94/</loc>
+    <lastmod>2025-04-09T14:59:13+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/deai/</loc>
     <lastmod>2025-04-08T20:58:55+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/%E5%87%A0%E4%B8%AAdeai%E9%A1%B9%E7%9B%AE%E7%9A%84%E8%B0%83%E7%A0%94/</loc>
@@ -32,7 +44,5 @@
     <loc>http://localhost:1313/authors/</loc>
   </url><url>
     <loc>http://localhost:1313/series/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

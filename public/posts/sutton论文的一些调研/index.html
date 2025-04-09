@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  将Sutton提出的 &#39;Decentralized Neural Networks&#39; 和区块链结合的方向和思考 · Harold
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Harold">
+<meta name="description" content="近两天大致研究了 Rich Sutton 在强化学习领域的哲学思考和近期的研究成果，发现了Sutton教授在2024年DAI 2024上的演讲, 从演讲题目来看，颇有Web3的风格: Decentralized Neural Networks1.
+这篇介绍分两个部分，第一部分转述一下Sutton在这个Keynote的想要表达的思想，第二部分尝试将这个方向和区块链进行一些结合：
+
+  Sutton 眼中的&quot;Decentralized Neural Networks&quot;
+  
+    
+    Link to heading
+  
+
+
+  🔍 总体思想：从“大脑比喻”走向“神经元自治”
+  
+    
+    Link to heading
+  
+
+1. 对当前大模型的系统性批评
+Sutton 开篇就明确提出：当前的深度学习和人工神经网络存在致命问题，包括：
+
+灾难性遗忘（Catastrophic forgetting）
+丧失可塑性（Plasticity collapse）
+在持续任务中性能退化（e.g. continual RL）
+
+这与他一贯的观点一致：现代深度学习过于集中式、静态化、不适应现实世界的变化，而这正是他呼吁“持续学习”“互动学习”的背景。
+2. 核心主张：神经元也是代理体，每个都有目标
+他在演讲中首次系统性提出了“去中心化神经网络（Decentralized Neural Networks, DNNs）”的定义：
+神经元不仅仅是被动计算单元，而是具有目标的主动体，它们的目标可以是：
+
+使其他神经元“愿意听我说话”
+至少有 10% 的时间是活跃的
+
+这从根本上挑战了目前神经网络中“被动单元&#43;集中优化目标”的主流范式，将微观自治引入神经网络的每一个组成部分。
+这也延续了 Sutton 之前关于“智能是由一组目标驱动的学习系统组成的”观点（参考他和 Silver 等人的《Reward is Enough》2论文），但进一步细化到网络内部结构的每个神经元。
+
+
+  🔬 技术细节与实验分析
+  
+    
+    Link to heading
+  
+
+1. 问题证据：深度网络在长期学习中“僵化”">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="将Sutton提出的 &#39;Decentralized Neural Networks&#39; 和区块链结合的方向和思考">
+  <meta name="twitter:description" content="近两天大致研究了 Rich Sutton 在强化学习领域的哲学思考和近期的研究成果，发现了Sutton教授在2024年DAI 2024上的演讲, 从演讲题目来看，颇有Web3的风格: Decentralized Neural Networks1.
+这篇介绍分两个部分，第一部分转述一下Sutton在这个Keynote的想要表达的思想，第二部分尝试将这个方向和区块链进行一些结合：
+Sutton 眼中的&#34;Decentralized Neural Networks&#34; Link to heading 🔍 总体思想：从“大脑比喻”走向“神经元自治” Link to heading 1. 对当前大模型的系统性批评
+Sutton 开篇就明确提出：当前的深度学习和人工神经网络存在致命问题，包括：
+灾难性遗忘（Catastrophic forgetting） 丧失可塑性（Plasticity collapse） 在持续任务中性能退化（e.g. continual RL） 这与他一贯的观点一致：现代深度学习过于集中式、静态化、不适应现实世界的变化，而这正是他呼吁“持续学习”“互动学习”的背景。
+2. 核心主张：神经元也是代理体，每个都有目标
+他在演讲中首次系统性提出了“去中心化神经网络（Decentralized Neural Networks, DNNs）”的定义：
+神经元不仅仅是被动计算单元，而是具有目标的主动体，它们的目标可以是：
+使其他神经元“愿意听我说话” 至少有 10% 的时间是活跃的 这从根本上挑战了目前神经网络中“被动单元&#43;集中优化目标”的主流范式，将微观自治引入神经网络的每一个组成部分。
+这也延续了 Sutton 之前关于“智能是由一组目标驱动的学习系统组成的”观点（参考他和 Silver 等人的《Reward is Enough》2论文），但进一步细化到网络内部结构的每个神经元。
+🔬 技术细节与实验分析 Link to heading 1. 问题证据：深度网络在长期学习中“僵化”">
+
+<meta property="og:url" content="http://localhost:1313/posts/sutton%E8%AE%BA%E6%96%87%E7%9A%84%E4%B8%80%E4%BA%9B%E8%B0%83%E7%A0%94/">
+  <meta property="og:site_name" content="Harold">
+  <meta property="og:title" content="将Sutton提出的 &#39;Decentralized Neural Networks&#39; 和区块链结合的方向和思考">
+  <meta property="og:description" content="近两天大致研究了 Rich Sutton 在强化学习领域的哲学思考和近期的研究成果，发现了Sutton教授在2024年DAI 2024上的演讲, 从演讲题目来看，颇有Web3的风格: Decentralized Neural Networks1.
+这篇介绍分两个部分，第一部分转述一下Sutton在这个Keynote的想要表达的思想，第二部分尝试将这个方向和区块链进行一些结合：
+Sutton 眼中的&#34;Decentralized Neural Networks&#34; Link to heading 🔍 总体思想：从“大脑比喻”走向“神经元自治” Link to heading 1. 对当前大模型的系统性批评
+Sutton 开篇就明确提出：当前的深度学习和人工神经网络存在致命问题，包括：
+灾难性遗忘（Catastrophic forgetting） 丧失可塑性（Plasticity collapse） 在持续任务中性能退化（e.g. continual RL） 这与他一贯的观点一致：现代深度学习过于集中式、静态化、不适应现实世界的变化，而这正是他呼吁“持续学习”“互动学习”的背景。
+2. 核心主张：神经元也是代理体，每个都有目标
+他在演讲中首次系统性提出了“去中心化神经网络（Decentralized Neural Networks, DNNs）”的定义：
+神经元不仅仅是被动计算单元，而是具有目标的主动体，它们的目标可以是：
+使其他神经元“愿意听我说话” 至少有 10% 的时间是活跃的 这从根本上挑战了目前神经网络中“被动单元&#43;集中优化目标”的主流范式，将微观自治引入神经网络的每一个组成部分。
+这也延续了 Sutton 之前关于“智能是由一组目标驱动的学习系统组成的”观点（参考他和 Silver 等人的《Reward is Enough》2论文），但进一步细化到网络内部结构的每个神经元。
+🔬 技术细节与实验分析 Link to heading 1. 问题证据：深度网络在长期学习中“僵化”">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-04-09T14:59:13+08:00">
+    <meta property="article:modified_time" content="2025-04-09T14:59:13+08:00">
+    <meta property="article:tag" content="Sutton">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/sutton%E8%AE%BA%E6%96%87%E7%9A%84%E4%B8%80%E4%BA%9B%E8%B0%83%E7%A0%94/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Harold
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/contact/">Contact me</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/sutton%E8%AE%BA%E6%96%87%E7%9A%84%E4%B8%80%E4%BA%9B%E8%B0%83%E7%A0%94/">
+              将Sutton提出的 &#39;Decentralized Neural Networks&#39; 和区块链结合的方向和思考
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2025-04-09T14:59:13&#43;08:00">
+                April 9, 2025
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              2-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/ai/">AI</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/sutton/">Sutton</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>近两天大致研究了 Rich Sutton 在强化学习领域的哲学思考和近期的研究成果，发现了Sutton教授在2024年<a href="https://adai.ai/dai/2024/index.html"  class="external-link" target="_blank" rel="noopener">DAI 2024</a>上的演讲, 从演讲题目来看，颇有Web3的风格: Decentralized Neural Networks<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>这篇介绍分两个部分，第一部分转述一下Sutton在这个Keynote的想要表达的思想，第二部分尝试将这个方向和区块链进行一些结合：</p>
+<h2 id="sutton-眼中的decentralized-neural-networks">
+  Sutton 眼中的&quot;Decentralized Neural Networks&quot;
+  <a class="heading-link" href="#sutton-%e7%9c%bc%e4%b8%ad%e7%9a%84decentralized-neural-networks">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="-总体思想从大脑比喻走向神经元自治">
+  🔍 总体思想：从“大脑比喻”走向“神经元自治”
+  <a class="heading-link" href="#-%e6%80%bb%e4%bd%93%e6%80%9d%e6%83%b3%e4%bb%8e%e5%a4%a7%e8%84%91%e6%af%94%e5%96%bb%e8%b5%b0%e5%90%91%e7%a5%9e%e7%bb%8f%e5%85%83%e8%87%aa%e6%b2%bb">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><strong>1. 对当前大模型的系统性批评</strong></p>
+<p>Sutton 开篇就明确提出：当前的深度学习和人工神经网络存在致命问题，包括：</p>
+<ul>
+<li>灾难性遗忘（Catastrophic forgetting）</li>
+<li>丧失可塑性（Plasticity collapse）</li>
+<li>在持续任务中性能退化（e.g. continual RL）</li>
+</ul>
+<p>这与他一贯的观点一致：现代深度学习过于集中式、静态化、不适应现实世界的变化，而这正是他呼吁“持续学习”“互动学习”的背景。</p>
+<p><strong>2. 核心主张：神经元也是代理体，每个都有目标</strong></p>
+<p>他在演讲中首次系统性提出了“去中心化神经网络（Decentralized Neural Networks, DNNs）”的定义：</p>
+<p>神经元不仅仅是被动计算单元，而是具有目标的主动体，它们的目标可以是：</p>
+<ul>
+<li>使其他神经元“愿意听我说话”</li>
+<li>至少有 10% 的时间是活跃的</li>
+</ul>
+<p>这从根本上挑战了目前神经网络中“被动单元+集中优化目标”的主流范式，将微观自治引入神经网络的每一个组成部分。</p>
+<p>这也延续了 Sutton 之前关于“智能是由一组目标驱动的学习系统组成的”观点（参考他和 Silver 等人的《Reward is Enough》<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>论文），但进一步细化到网络内部结构的每个神经元。</p>
+<hr>
+<h3 id="-技术细节与实验分析">
+  🔬 技术细节与实验分析
+  <a class="heading-link" href="#-%e6%8a%80%e6%9c%af%e7%bb%86%e8%8a%82%e4%b8%8e%e5%ae%9e%e9%aa%8c%e5%88%86%e6%9e%90">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><strong>1. 问题证据：深度网络在长期学习中“僵化”</strong></p>
+<ul>
+<li>在 Continual ImageNet 实验中，Backpropagation 在任务持续进行时，准确率显著下降（从89% → 低于线性模型）；</li>
+<li>在 MuJoCo Ant Locomotion with Friction 中，PPO 和其他强化学习算法也表现出类似退化（reward下降、表示秩下降、失活神经元增加）；</li>
+</ul>
+<p>这些实验 直接验证了 Sutton 对“深度模型缺乏自我更新能力”的担忧。</p>
+<p>尤其重要的是，这些问题不仅出现在监督学习中，也出现在强化学习中，验证了“当前的预训练+微调机制在持续交互任务下失效”。</p>
+<p><strong>2. 解决思路：通过“去中心化目标”增强网络生命力</strong></p>
+<p>Sutton 提出四层级别的去中心化适应机制：</p>
+<table>
+  <thead>
+      <tr>
+          <th>层级</th>
+          <th>对应操作</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1. 连接结构</td>
+          <td>神经元主动选择连接谁</td>
+      </tr>
+      <tr>
+          <td>2. 权重更新</td>
+          <td>有效连接增强</td>
+      </tr>
+      <tr>
+          <td>3. 步长调整</td>
+          <td>学习率个性化调节，防止灾难性遗忘</td>
+      </tr>
+      <tr>
+          <td>4. 神经元生死循环</td>
+          <td>“fringe”神经元不断尝试发声、获得主网络认可</td>
+      </tr>
+  </tbody>
+</table>
+<p>特别值得注意的是“<strong>骨干-边缘结构</strong>”概念：</p>
+<ul>
+<li>Backbone（骨干）：当前已经有效的子网络，应保护。</li>
+<li>Fringe（边缘）：新进神经元，应探索、求关注，努力被主网采纳。</li>
+</ul>
+<p>这一设想某种程度上模拟了生物神经系统的生长机制（e.g.神经突触可塑性，微观神经连接重塑）。</p>
+<p>Sutton指出：“大多数神经元在训练中被永远丢弃了。如果它们有自我意识（去中心化目标），它们就不会允许自己永远沉默。”</p>
+<hr>
+<h3 id="-与大模型范式的关系与差异">
+  🧠 与大模型范式的关系与差异
+  <a class="heading-link" href="#-%e4%b8%8e%e5%a4%a7%e6%a8%a1%e5%9e%8b%e8%8c%83%e5%bc%8f%e7%9a%84%e5%85%b3%e7%b3%bb%e4%b8%8e%e5%b7%ae%e5%bc%82">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<table>
+  <thead>
+      <tr>
+          <th>维度</th>
+          <th>当前主流大模型（LLM</th>
+          <th>Sutton 的去中心化神经网络</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>架构设计</td>
+          <td>统一大参数空间，全局优化</td>
+          <td>局部目标导向，神经元自治进化</td>
+      </tr>
+      <tr>
+          <td>学习方式</td>
+          <td>预训练 + 微调(离线)</td>
+          <td>持续学习 + 试错（在线）</td>
+      </tr>
+      <tr>
+          <td>表现机制</td>
+          <td>参数冻结、少量适配</td>
+          <td>动态结构生长、替换</td>
+      </tr>
+      <tr>
+          <td>单元角色</td>
+          <td>神经元是被动映射单元</td>
+          <td>神经元是“个体代理”</td>
+      </tr>
+      <tr>
+          <td>模型更新</td>
+          <td>Batch 更新，依赖Replay</td>
+          <td>Streaming在线学习（参见 Elsayed et al.）</td>
+      </tr>
+  </tbody>
+</table>
+<p>也就是说， <strong>Sutton 正在构建一个根本不同于当前 Transformer + RLHF 范式的智能体架构。相比依赖固定的超大模型，他更关注模型在时间维度上的演化能力和结构可塑性。</strong></p>
+<hr>
+<h3 id="-个人猜测">
+  🔗 个人猜测
+  <a class="heading-link" href="#-%e4%b8%aa%e4%ba%ba%e7%8c%9c%e6%b5%8b">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ol>
+<li>与阿尔伯塔计划的理念呼应</li>
+</ol>
+<p>Sutton 在阿尔伯塔计划提出的“构建具备世界模型与目标系统的代理体”在此得到了架构化表达：去中心化神经网络的“每个神经元都有目标”就是最底层的代理机制。</p>
+<ol start="2">
+<li>与Keen Technologies的产品方向一致</li>
+</ol>
+<p>作为 Keen Technologies 的研究科学家，Sutton 此演讲很可能代表他们未来的技术方向。小型灵活、动态成长的去中心化架构，可能是其差异化突破OpenAI/DeepMind路线的核心战略。</p>
+<hr>
+<h2 id="全新范式下一代ai网络-g-dnns-governable-decentralized-neural-networks">
+  全新范式(下一代AI网络), G-DNNs: Governable Decentralized Neural Networks
+  <a class="heading-link" href="#%e5%85%a8%e6%96%b0%e8%8c%83%e5%bc%8f%e4%b8%8b%e4%b8%80%e4%bb%a3ai%e7%bd%91%e7%bb%9c-g-dnns-governable-decentralized-neural-networks">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>基于此，结合 Sutton 的《Decentralized Neural Networks》和 InitialS-AI 的去中心化 AI 治理框架, 我们提出一个全新范式，称为：</p>
+<p><strong>1.G-DNNs: Governable Decentralized Neural Networks 一个“可审计的、自我演化的、自治 AI 网络”</strong></p>
+<p>这个系统结合了 Sutton 的 DNNs + InitialS 的链上 AI 审查机制，核心构想如下：</p>
+<table>
+  <thead>
+      <tr>
+          <th>Sutton 的 DNNs</th>
+          <th>InitialS-AI 模型审查系统</th>
+          <th>融合创新</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>神经元是&quot;有目标&quot;的自主体</td>
+          <td>AI 模型需&quot;审计评分、增强修复&quot;</td>
+          <td>每个神经元都有 评分机制+治理接口</td>
+      </tr>
+      <tr>
+          <td>网络由骨干和边缘组成，动态生长</td>
+          <td>模型版本、权重需要审计和报告</td>
+          <td>边缘神经元必须通过链上 KYA 审查才能晋升骨干</td>
+      </tr>
+      <tr>
+          <td>神经元通过被&quot;听见&quot;来争取存活</td>
+          <td>节点通过&quot;高质量输出&quot;获得奖励</td>
+          <td>每个神经元的&quot;存活权&quot;由链上&quot;验证者&quot;或&quot;投票&quot;决定</td>
+      </tr>
+      <tr>
+          <td>没有一个固定全局目标</td>
+          <td>InitialS 引入多维质量标准（安全、偏见、鲁棒性）</td>
+          <td>神经元需在多维&quot;AI治理坐标系&quot;中适应存活</td>
+      </tr>
+      <tr>
+          <td>学习是持续的、在线的</td>
+          <td>模型审查也是持续的、任务驱动的</td>
+          <td>审查结果</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<p><strong>2. 与区块链的映射关系：去中心化神经元 ↔ 去中心化节点</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>DNNs 概念</th>
+          <th>区块链映射</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>神经元（agent）</td>
+          <td>链上计算节点 / AI agent</td>
+      </tr>
+      <tr>
+          <td>神经元目标</td>
+          <td>智能体策略 / 任务收益函数</td>
+      </tr>
+      <tr>
+          <td>神经元之间的连接</td>
+          <td>agent之间的消息传递/调用</td>
+      </tr>
+      <tr>
+          <td>骨干神经元</td>
+          <td>核心共识节点 / 模型主干</td>
+      </tr>
+      <tr>
+          <td>边缘神经元</td>
+          <td>可替换worker节点 / 模型外设</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<p><strong>3.融入 InitialS 的审查流程（KYA）到神经元生命周期中</strong></p>
+<p>✅ 新神经元生成流程（与“fringe”概念对应）：</p>
+<ol>
+<li>用户/agent 向系统注册一个新的神经元（模型碎片）
+2.	系统分配测试任务（图像分类、语言生成等）
+3.	其输出被多个审查节点评估（参考 InitialS 的 Audit Layer）
+4.	审查结果生成：
+<ul>
+<li>安全等级（Toxicity、Privacy）</li>
+<li>质量等级（Accuracy、Novelty、Bias）</li>
+<li>表现评分（Reward-to-Stake）</li>
+</ul>
+</li>
+</ol>
+<p>合格的神经元可被纳入“Backbone”，或获得任务调用资格。</p>
+<hr>
+<p><strong>4.治理机制设计建议</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>模块</th>
+          <th>设计思路</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>KYA（Know Your AI）审查</td>
+          <td>每个神经元上传时触发审查任务，参考 InitialS 框架中 domain-specific task 分发和众包节点评分</td>
+      </tr>
+      <tr>
+          <td>骨干-边缘动态结构</td>
+          <td>骨干神经元需维持一定活跃度 + 审查分数，高分边缘神经元可申请替换骨干神经元，触发投票/质押决议</td>
+      </tr>
+      <tr>
+          <td>&ldquo;被听见即生存&quot;激励机制</td>
+          <td>被调用/激活越多 → 贡献值越高 → 得分越高 → 奖励越多</td>
+      </tr>
+      <tr>
+          <td>惩罚机制</td>
+          <td>审查分数连续下降的神经元将逐步退化为&quot;沉默神经元&rdquo;，可被淘汰或替换</td>
+      </tr>
+      <tr>
+          <td>多维审查标准</td>
+          <td>安全（toxic output）、公平性（bias）、鲁棒性（OOD）、幻觉率（hallucination）等指标由不同节点负责评分</td>
+      </tr>
+      <tr>
+          <td>链上存证+透明演化路径</td>
+          <td>每个神经元的训练历史、审查记录、调用次数、权重变化都可链上追溯，保障模型进化路径可解释、可信、可问责</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<p><strong>5.可落地开发建议（MVP）</strong></p>
+<p>技术组件可用：</p>
+<table>
+  <thead>
+      <tr>
+          <th>目标功能</th>
+          <th>技术建议</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>去中心化神经元部署</td>
+          <td>每个模块为一个 agent，可用 Agentic LLM (如 LangChain, ReAct) 实现</td>
+      </tr>
+      <tr>
+          <td>审查任务分发机制</td>
+          <td>初期用链下协调 + 链上结果提交，后期可拓展为链上任务合约</td>
+      </tr>
+      <tr>
+          <td>模型评分与结构演化</td>
+          <td>可用图数据库表示神经网络结构，结合 Graph NFT 概念</td>
+      </tr>
+      <tr>
+          <td>KYA + 奖励分配</td>
+          <td>使用 InitialS 的 KYA 节点网络 + 质押 &amp; slashing + listen-to-earn</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<p><strong>最后总结一句话：</strong></p>
+<p>把 Sutton 的神经元想象力 + InitialS 的审查体系结合起来，就诞生了一个“<strong>可审计的、自我演化的、自治 AI 网络</strong>”—— 个人认为这是比 GPT 更长远的 AI 基础设施方向。</p>
+<h2 id="参考文献">
+  参考文献
+  <a class="heading-link" href="#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="http://incompleteideas.net/Talks/DNNs-Singapore.pdf"  class="external-link" target="_blank" rel="noopener">Rich Sutton. <em>Decentralized Neural Networks</em>.</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://web.eecs.umich.edu/~baveja/Papers/RewardIsEnough.pdf"  class="external-link" target="_blank" rel="noopener">Reward is Enough</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2024 -
+    
+    2025
+     Harold 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>
