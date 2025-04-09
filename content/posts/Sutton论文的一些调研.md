@@ -11,9 +11,9 @@ externalLink = ""
 series = []
 +++
 
-近两天大致研究了 Rich Sutton 在强化学习领域的哲学思考和近期的研究成果，发现了Sutton教授在2024年[DAI 2024](https://adai.ai/dai/2024/index.html)上的演讲, 从演讲题目来看，颇有Web3的风格: Decentralized Neural Networks[^1]. 
+近两天大致研究了 Rich Sutton 在强化学习领域的哲学思考和近期的研究成果，发现了Sutton教授在 [DAI 2024](https://adai.ai/dai/2024/index.html)上的演讲, 从演讲题目来看，颇有Web3的风格: Decentralized Neural Networks[^1]. 
 
-这篇介绍分两个部分，第一部分转述一下Sutton在这个Keynote中想要表达的思想，第二部分尝试将这个方向和区块链进行一些结合：
+这篇介绍分两个部分，第一部分转述一下Sutton在这个Keynote中想要表达的思想，第二部分尝试将这个方向和区块链进行一些结合.
 
 
 ## Sutton 眼中的"Decentralized Neural Networks"
